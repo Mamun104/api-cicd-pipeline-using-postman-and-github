@@ -22,6 +22,8 @@ jobs:
       - name: Make newman-allure-reporter
         run: |
           newman run ./collection/dmoney-users.postman_collection.json -r allure
-          Allure serve 
+      - name: Generate Allure Report
+        run: |
+          allure serve 
 
           
