@@ -15,14 +15,13 @@ jobs:
       - name: Run API tests
         run: |
           postman collection run "16548351-99544b00-a94d-4053-bed2-e305bdfe9691"
-      - name: Install Newman and Allure Reporter
+      - name: Install Newman and HTML Reporter
         run: |
           npm install -g newman
           npm install -g newman-reporter-htmlextra
 
       - name: Run Newman
         run: newman run ./collection/dmoney-users.postman_collection.json -r htmlextra
-      - name: Run Newman
-        run: newman run ./collection/dmoney-users.postman_collection.json -r htmlextra
+      
 
      
