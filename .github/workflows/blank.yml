@@ -19,6 +19,13 @@ jobs:
         run: |
           npm install -g newman
           npm install -g newman-reporter-allure
+      - name: Install Allure
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openjdk-11-jdk wget unzip
+          wget https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.tgz
+          tar -zxvf allure-2.14.0.tgz
+          sudo mv allure-2.14.0/bin/allure /usr/local/bin/
       - name: Make newman-allure-reporter
         run: |
           newman run ./collection/dmoney-users.postman_collection.json -r allure
