@@ -22,10 +22,3 @@ jobs:
 
       - name: Run Newman
         run: newman run ./collection/dmoney-users.postman_collection.json -r htmlextra
-      - name: Run Newman
-        run: newman run ./collection/dmoney-users.postman_collection.json -r htmlextra
-      - name: Run Newman
-        run: newman run ./collection/dmoney-users.postman_collection.json -r htmlextra
-      
-
-     
