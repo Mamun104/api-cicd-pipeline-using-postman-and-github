@@ -19,14 +19,27 @@ jobs:
         run: |
           npm install -g newman
           npm install -g newman-reporter-allure
-      - name: Install Allure
-        run: |
-          brew install allure
-      - name: Make newman-allure-reporter
-        run: |
-          newman run ./collection/dmoney-users.postman_collection.json -r allure
-      - name: Generate Allure Report
-        run: |
-          allure serve ./allure-results 
 
+      - name: Install OpenJDK
+        run: |
+          brew install openjdk@11
+          echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc
+          echo 'export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"' >> ~/.zshrc
+          echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 11)' >> ~/.zshrc
+          source ~/.zshrc
+
+      - name: Install Wget
+        run: brew install wget
+
+      - name: Download and Install Allure
+        run: |
+          wget https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.tgz
+          tar -zxvf allure-2.14.0.tgz
+          sudo mv allure-2.14.0/bin/allure /usr/local/bin/
+
+      - name: Run Newman
+        run: newman run ./collection/dmoney-users.postman_collection.json -r allure
+
+      - name: Generate Allure Report
+        run: allure serve ./allure-results
           
