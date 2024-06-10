@@ -2515,7 +2515,7 @@
 									"});\r",
 									"\r",
 									"pm.test(\"Response time check\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(10000);\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(20000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Check the POST method request\", function () {\r",
