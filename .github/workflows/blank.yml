@@ -22,7 +22,7 @@ jobs:
 
       - name: Install OpenJDK
         run: |
-          brew install openjdk@11
+          brew install openjdk@latest
           echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc
           echo 'export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"' >> ~/.zshrc
           echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 11)' >> ~/.zshrc
