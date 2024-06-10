@@ -93,6 +93,9 @@
 ## newman-reporter-html
 
 ![image](https://github.com/Mamun104/api-cicd-pipeline-using-postman-and-github/assets/78067017/ddec0095-81c0-4573-96d3-9f4be0fa4c3e)
+
+## newman-allure-reporter
+
 ![image](https://github.com/Mamun104/api-cicd-pipeline-using-postman-and-github/assets/78067017/8c6b0dc8-b4d5-4738-a302-0afc116ff888)
 ![image](https://github.com/Mamun104/api-cicd-pipeline-using-postman-and-github/assets/78067017/f6ef0a8d-ff7a-4dde-a5d3-e2d7a80eca3d)
 
