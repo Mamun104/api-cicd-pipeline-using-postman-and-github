@@ -1,0 +1,8 @@
+{
+    "name":"Darrell Walter",
+    "email":"Carlo@test.com",
+    "password":"1234",
+    "phone_number":"01507770888",
+    "nid":"7770888",
+    "role":"Customer"
+}

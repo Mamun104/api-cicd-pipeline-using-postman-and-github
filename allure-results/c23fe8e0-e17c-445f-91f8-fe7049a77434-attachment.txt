@@ -1,0 +1,1 @@
+{"message":"User found","user":{"id":74,"name":"Ron Auer","email":"peter@test.com","password":"1234","phone_number":"01500677263","nid":"123456789","role":"Customer","photo":null,"createdAt":"2024-03-10T10:13:21.000Z","updatedAt":"2024-03-10T10:13:21.000Z","balance":0}}

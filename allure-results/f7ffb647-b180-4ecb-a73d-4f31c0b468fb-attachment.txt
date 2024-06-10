@@ -1,0 +1,8 @@
+{
+    "name":"Stacy Casper",
+    "email":"Alyce@test.com",
+    "password":"1234",
+    "phone_number":"01504733758",
+    "nid":"4733758",
+    "role":"Customer"
+}

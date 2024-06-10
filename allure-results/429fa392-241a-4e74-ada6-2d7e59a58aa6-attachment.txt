@@ -1,0 +1,8 @@
+{
+    "name":"Elaine Mohr",
+    "email":"Judah@test.com",
+    "password":"1234",
+    "phone_number":"01506905664",
+    "nid":"6905664",
+    "role":"Agent"
+}

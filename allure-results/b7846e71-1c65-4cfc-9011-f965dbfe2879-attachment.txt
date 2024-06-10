@@ -1,0 +1,8 @@
+{
+    "name":"Guillermo Barton",
+    "email":"Nakia@test.com",
+    "password":"1234",
+    "phone_number":"01503458908",
+    "nid":"3458908",
+    "role":"Customer"
+}

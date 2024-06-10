@@ -1,0 +1,8 @@
+{
+    "name":"Heather Kohler",
+    "email":"Noe@test.com",
+    "password":"1234",
+    "phone_number":"01501634575",
+    "nid":"1634575",
+    "role":"Customer"
+}

@@ -1,0 +1,8 @@
+{
+    "name":"Wendell Parisian",
+    "email":"Kennedy@test.com",
+    "password":"1234",
+    "phone_number":"01504094971",
+    "nid":"4094971",
+    "role":"Agent"
+}

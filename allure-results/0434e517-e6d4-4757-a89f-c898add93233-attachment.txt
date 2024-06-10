@@ -1,0 +1,1 @@
+{"message":"User created","user":{"id":7126,"name":"Bobbie Zemlak","email":"Eduardo@test.com","password":"1234","phone_number":"01509614232","nid":"7686043","role":"Agent","updatedAt":"2024-06-10T09:54:23.218Z","createdAt":"2024-06-10T09:54:23.218Z"}}

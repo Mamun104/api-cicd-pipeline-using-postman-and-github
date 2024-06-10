@@ -1,0 +1,8 @@
+{
+    "name":"Alma Fritsch I",
+    "email":"Israel@test.com",
+    "password":"1234",
+    "phone_number":"01504491520",
+    "nid":"4491520",
+    "role":"Agent"
+}

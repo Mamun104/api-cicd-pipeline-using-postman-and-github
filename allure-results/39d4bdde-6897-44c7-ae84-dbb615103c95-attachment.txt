@@ -1,0 +1,8 @@
+{
+    "name":"Ted Schinner MD",
+    "email":"Joannie@test.com",
+    "password":"1234",
+    "phone_number":"01502880185",
+    "nid":"2880185",
+    "role":"Agent"
+}

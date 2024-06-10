@@ -1,0 +1,8 @@
+{
+    "name":"Katie Rolfson",
+    "email":"Casper@test.com",
+    "password":"1234",
+    "phone_number":"01509590055",
+    "nid":"9590055",
+    "role":"Agent"
+}

@@ -1,0 +1,10 @@
+{
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoic2FsbWFuQHJvYWR0b2NhcmVlci5uZXQiLCJwYXNzd29yZCI6IjEyMzQiLCJpYXQiOjE3MTgwMTMxNTAsImV4cCI6MTcxODAxNjc1MH0.7QG_qCINwScTy6txhRquWOjkDmWFzGMbvGEfj_5Kx1w",
+    "User-Agent": "PostmanRuntime/7.39.0",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "da75e6ff-a52b-4541-8a42-b961baa982de",
+    "Host": "dmoney.roadtocareer.net",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

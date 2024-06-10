@@ -1,0 +1,1 @@
+{"message":"User updated","user":{"name":"B9 Test User update","email":"Jaunita@test.com","password":"1234","phone_number":"01505782736","nid":"123456789","role":"Customer"}}

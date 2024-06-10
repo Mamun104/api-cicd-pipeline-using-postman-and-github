@@ -1,0 +1,12 @@
+{
+    "Date": "Mon, 10 Jun 2024 09:52:31 GMT",
+    "Server": "Apache",
+    "X-Powered-By": "Express, Phusion Passenger(R) 6.0.22",
+    "Access-Control-Allow-Origin": "*",
+    "ETag": "W/\"17fab1-hNFEshm43WcQsF28TeBTs9Exa00\"",
+    "Content-Length": "1571505",
+    "Status": "200 OK",
+    "Keep-Alive": "timeout=5, max=85",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/json; charset=utf-8"
+}

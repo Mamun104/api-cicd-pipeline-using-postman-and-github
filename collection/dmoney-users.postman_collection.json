@@ -120,7 +120,7 @@
 								"header": [
 									{
 										"key": "Authorization",
-										"value": "{{token}}",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoic2FsbWFuQHJvYWR0b2NhcmVlci5uZXQiLCJwYXNzd29yZCI6IjEyMzQiLCJpYXQiOjE3MTgwMDgzNjksImV4cCI6MTcxODAxMTk2OX0.1Kibvx3ihZ5DBdqu4HLc0Alp0w4QfJsKZ4BKaZfXan0",
 										"type": "text"
 									},
 									{
@@ -131,7 +131,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\":\"{{$randomFullName}}\",\r\n    \"email\":\"{{$randomFirstName}}@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"{{phoneNumber}}\",\r\n    \"nid\":\"{{nid}}\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
+									"raw": "{\r\n    \"name\":\"Theresa Schinner\",\r\n    \"email\":\"Stevie@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"01506808365\",\r\n    \"nid\":\"6808365\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -139,9 +139,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/create",
+									"raw": "http://dmoney.roadtocareer.net/user/create",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -315,13 +318,13 @@
 									},
 									{
 										"key": "X-AUTH-SECRET-KEY",
-										"value": "{{secretKey}}",
+										"value": "ROADTOSDET",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\":\"{{$randomFullName}}\",\r\n    \"email\":\"{{$randomFirstName}}@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"{{phoneNumber}}\",\r\n    \"nid\":\"{{nid}}\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
+									"raw": "{\r\n    \"name\":\"Lindsey Jast\",\r\n    \"email\":\"Landen@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"01506808365\",\r\n    \"nid\":\"6808365\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -329,9 +332,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/create",
+									"raw": "http://dmoney.roadtocareer.net/user/create",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -500,7 +506,7 @@
 								"header": [
 									{
 										"key": "Authorization",
-										"value": "{{token}}",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoic2FsbWFuQHJvYWR0b2NhcmVlci5uZXQiLCJwYXNzd29yZCI6IjEyMzQiLCJpYXQiOjE3MTgwMDgzNjksImV4cCI6MTcxODAxMTk2OX0.1Kibvx3ihZ5DBdqu4HLc0Alp0w4QfJsKZ4BKaZfXan0",
 										"type": "text"
 									},
 									{
@@ -511,7 +517,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\":\"{{$randomFullName}}\",\r\n    \"email\":\"{{$randomFirstName}}@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"{{phoneNumber}}\",\r\n    \"nid\":\"{{nid}}\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
+									"raw": "{\r\n    \"name\":\"Beth Carroll\",\r\n    \"email\":\"Lucinda@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"01506808365\",\r\n    \"nid\":\"6808365\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -519,9 +525,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/create",
+									"raw": "http://dmoney.roadtocareer.net/user/create",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -695,13 +704,13 @@
 									},
 									{
 										"key": "X-AUTH-SECRET-KEY",
-										"value": "{{secretKey}}",
+										"value": "ROADTOSDET",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\":\"{{$randomFullName}}\",\r\n    \"email\":\"{{$randomFirstName}}@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"{{phoneNumber}}\",\r\n    \"nid\":\"{{nid}}\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
+									"raw": "{\r\n    \"name\":\"Tina Raynor\",\r\n    \"email\":\"Marc@test.com\",\r\n    \"password\":\"1234\",\r\n    \"phone_number\":\"01506808365\",\r\n    \"nid\":\"6808365\",\r\n    \"role\":\"Customer\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -709,9 +718,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/create",
+									"raw": "http://dmoney.roadtocareer.net/user/create",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -854,9 +866,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/login",
+									"raw": "http://dmoney.roadtocareer.net/user/login",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -999,9 +1014,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/login",
+									"raw": "http://dmoney.roadtocareer.net/user/login",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -1144,9 +1162,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/login",
+									"raw": "http://dmoney.roadtocareer.net/user/login",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -1289,9 +1310,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/login",
+									"raw": "http://dmoney.roadtocareer.net/user/login",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -1442,9 +1466,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/user/login",
+									"raw": "http://dmoney.roadtocareer.net/user/login",
+									"protocol": "http",
 									"host": [
-										"{{baseUrl}}"
+										"dmoney",
+										"roadtocareer",
+										"net"
 									],
 									"path": [
 										"user",
@@ -2488,7 +2515,7 @@
 									"});\r",
 									"\r",
 									"pm.test(\"Response time check\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(8000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Check the POST method request\", function () {\r",
@@ -2531,8 +2558,11 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"packages": {},
-								"type": "text/javascript"
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],

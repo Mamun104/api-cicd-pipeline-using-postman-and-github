@@ -1,0 +1,8 @@
+{
+    "name":"Miss Kelvin Fahey",
+    "email":"Mariam@test.com",
+    "password":"1234",
+    "phone_number":"01509348227",
+    "nid":"9348227",
+    "role":"Agent"
+}

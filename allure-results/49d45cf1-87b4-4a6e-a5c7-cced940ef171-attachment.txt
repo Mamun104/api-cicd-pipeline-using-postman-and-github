@@ -1,0 +1,8 @@
+{
+    "name":"Mr. Clarence Corkery",
+    "email":"Maud@test.com",
+    "password":"1234",
+    "phone_number":"01501367021",
+    "nid":"1367021",
+    "role":"Customer"
+}

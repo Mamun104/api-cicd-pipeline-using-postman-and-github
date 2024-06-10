@@ -1,0 +1,1 @@
+{"message":"User found","user":{"id":76,"name":"Khadiza Haque","email":"Khadizahaque11@gmail.com","password":"123422","phone_number":"01600254317","nid":"133253785","role":"Customer","photo":"testing types4.PNG","createdAt":"2024-03-10T16:07:40.000Z","updatedAt":"2024-03-11T20:41:40.000Z","balance":0}}

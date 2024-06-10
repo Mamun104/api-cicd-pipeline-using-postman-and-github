@@ -1,0 +1,13 @@
+{
+    "X-AUTH-SECRET-KEY": "bgdfh",
+    "Content-Type": "application/json",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoic2FsbWFuQHJvYWR0b2NhcmVlci5uZXQiLCJwYXNzd29yZCI6IjEyMzQiLCJpYXQiOjE3MTgwMTMxNTAsImV4cCI6MTcxODAxNjc1MH0.7QG_qCINwScTy6txhRquWOjkDmWFzGMbvGEfj_5Kx1w",
+    "User-Agent": "PostmanRuntime/7.39.0",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "023a720d-8404-4023-bc52-b9e45cf4bd0a",
+    "Host": "dmoney.roadtocareer.net",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "180"
+}

@@ -1,0 +1,8 @@
+{
+    "name":"Marshall Fay V",
+    "email":"Jarrod@test.com",
+    "password":"1234",
+    "phone_number":"01509614232",
+    "nid":"9614232",
+    "role":"Agent"
+}

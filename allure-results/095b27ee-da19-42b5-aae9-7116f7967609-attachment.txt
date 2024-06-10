@@ -1,0 +1,8 @@
+{
+    "name":"Wendy Howell",
+    "email":"Melody@test.com",
+    "password":"1234",
+    "phone_number":"01508448911",
+    "nid":"8448911",
+    "role":"Agent"
+}

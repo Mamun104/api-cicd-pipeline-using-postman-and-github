@@ -1,0 +1,8 @@
+{
+    "name":"Blanca Kuphal",
+    "email":"Letitia@test.com",
+    "password":"1234",
+    "phone_number":"01501306224",
+    "nid":"1306224",
+    "role":"Customer"
+}
