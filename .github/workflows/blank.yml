@@ -22,7 +22,7 @@ jobs:
 
       - name: Install OpenJDK
         run: |
-          brew install --cask adoptopenjdk
+          brew install openjdk@20
           
       - name: Install Allure
         run: brew install allure
