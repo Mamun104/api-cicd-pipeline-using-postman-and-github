@@ -18,18 +18,9 @@ jobs:
       - name: Install Newman and Allure Reporter
         run: |
           npm install -g newman
-          npm install -g newman-reporter-allure
-
-      - name: Install OpenJDK
-        run: |
-          brew install openjdk@17
-          
-      - name: Install Allure
-        run: brew install allure
+          npm install -g newman-reporter-htmlextra
 
       - name: Run Newman
-        run: newman run ./collection/dmoney-users.postman_collection.json -r allure
+        run: newman run ./collection/dmoney-users.postman_collection.json -r htmlextra
 
-      - name: Generate Allure Report
-        run: allure serve ./allure-results
-          
+     
