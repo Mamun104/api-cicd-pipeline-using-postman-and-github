@@ -22,7 +22,7 @@ jobs:
 
       - name: Install OpenJDK
         run: |
-          brew install openjdk@20
+          brew install openjdk@17
           
       - name: Install Allure
         run: brew install allure
